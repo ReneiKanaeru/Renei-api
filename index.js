@@ -61,6 +61,4 @@ app.post('/api/tools/am/verif-email', (req, res) => {
   });
 });
 
-const PORT = process.env.PORT || 3000;
-app.listen(PORT, () => console.log('✅ API berjalan!'));
-
+module.exports = app;
